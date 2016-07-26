@@ -3,7 +3,6 @@ sudo: false
 
 jdk:
   - oraclejdk8
-  - openjdk7
 
 branches:
   only:
@@ -17,6 +16,7 @@ before_script:
 script:
   - mvn -Pekstazi test
   - pwd
+  - echo hi
   - find -name .ekstazi
   - cp -f -r ./.ekstazi ~
 

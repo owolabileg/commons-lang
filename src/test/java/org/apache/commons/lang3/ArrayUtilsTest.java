@@ -89,6 +89,7 @@ public class ArrayUtilsTest  {
 
     //-----------------------------------------------------------------------
     private void assertIsEquals(final Object array1, final Object array2, final Object array3) {
+        System.out.println("Hello world!");
         assertTrue(ArrayUtils.isEquals(array1, array1));
         assertTrue(ArrayUtils.isEquals(array2, array2));
         assertTrue(ArrayUtils.isEquals(array3, array3));

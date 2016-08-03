@@ -14,7 +14,7 @@ before_script:
   - cp -f -r ~/.ekstazi ./
 
 script:
-  - mvn -Pekstazi test
+  - mvn ekstazi:ekstazi
   - pwd
   - echo hi
   - find -name .ekstazi
